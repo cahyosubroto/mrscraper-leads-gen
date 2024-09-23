@@ -15,9 +15,10 @@ With customizable search parameters and categories, this script allows businesse
 
 ## Usage
 
-1. Replace the following details with your own details in the script file (`scrape.js`):
+1. Replace the following details with your own details in the script file (`scrape-google.js`/ `scrape-twitter.js`):
    - YOUR_BEARER_TOKEN_HERE: Your MrScraper API key found at https://app.mrscraper.com/my-profile to authenticate requests.
-2. Run the script: `node scrape.js`
+   - You may replace the `scraperData` payload value in the file with your customized configuration tailored to the platform you are scraping, such as keywords, URLs, search types, and any other specific parameters required by your leads generator.
+2. Run the script: `node scrape-google.js` for Google Leads Generator and `node scrape-twitter.js` for X/Twitter Leads Generator. 
 
 ## Contributing
 

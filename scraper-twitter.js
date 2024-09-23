@@ -2,15 +2,14 @@ const axios = require('axios');
 
 // Set up the scraper data
 const scraperData = {
-    "name": "Google Leads Generator Test",
-    "platform": "google",
-    "search_type": "url",
-    "url": "erha",
-    "limit_pages": 1
-};
+    "name": "Twitter Sentiment Scraper Example",
+    "keywords": "AI, Machine Learning",
+    "sentiment_type": "positive",
+    "expected_data": 100
+}
 
 // Set up the API endpoint and authentication
-const apiEndpoint = "https://app.mrscraper.com/api/scrapers/create-and-run-leads-generator";
+const apiEndpoint = "https://app.mrscraper.com/api/scrapers/twitter/google/create-and-run";
 const token = "YOUR_BEARER_TOKEN_HERE"; // Replace with your actual Bearer token, generate yours at MrScraper's Account Settings
 
 // Function to create and run the Facebook Marketplace Scraper
